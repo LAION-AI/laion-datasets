@@ -3,6 +3,14 @@
 Laion aesthetic is a subset of laion5B that has been estimated by a model trained on top of clip embeddings to be aesthetic.
 The intended usage of this dataset is image generation.
 
+Normal results:
+
+<img src="https://github.com/LAION-AI/aesthetic-predictor/blob/main/cat_normal.png?raw=true" width="512" />
+
+Aesthetic results:
+
+<img src="https://github.com/LAION-AI/aesthetic-predictor/blob/main/cat_aesthetic.png?raw=true" width="512" />
+
 ## Description
 
 ### Training set
