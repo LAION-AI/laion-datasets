@@ -11,6 +11,14 @@ Aesthetic results:
 
 <img src="https://github.com/LAION-AI/aesthetic-predictor/blob/main/cat_aesthetic.png?raw=true" width="512" />
 
+2000 random samples from the >= 7 aesthetic subset https://laion-ai.github.io/laion-datasets/laion-aesthetic/laion_aesthetic.html
+
+## Recommended usage
+
+Depending on how much data you want to use you can:
+1. use laion-art which contains the 10M most aesthetic samples (score > 8)
+2. use laion-aesthetic which contains 120M aesthetic samples (score > 7)
+3. use the on disk kv to get the full set of tags for the whole 5B samples and do your own custom filtering (or conditioning!) using the whole dataset
 
 ## Download
 
@@ -50,17 +58,17 @@ Statistics look like ths
 {'0-1': '1.38M', '1-2': '15.25M', '2-3': '96.31M', '3-4': '237.04M', '4-5': '364.68M', '5-6': '338.19M', '6-7': '149.85M', '7-8': '26.99M', '8-9': '1.69M', '9-10': '0.02M'}
 for nolang
 
-http://3080.rom1504.fr/aesthetic/aesthetic_viz_nolang.html 
+https://laion-ai.github.io/laion-datasets/laion-aesthetic/laion1B_nolang_aesthetic_distribution.html
 
 {'0-1': '2.66M', '1-2': '25.62M', '2-3': '147.55M', '3-4': '410.18M', '4-5': '656.38M', '5-6': '601.73M', '6-7': '271.19M', '7-8': '51.43M', '8-9': '3.35M', '9-10': '0.05M'}
 for 2B-en
 
-http://3080.rom1504.fr/aesthetic/aesthetic_viz.html
+https://laion-ai.github.io/laion-datasets/laion-aesthetic/laion2B_en_aesthetic_distribution.html
 
 {'0-1': '1.77M', '1-2': '21.74M', '2-3': '135.56M', '3-4': '390.73M', '4-5': '640.26M', '5-6': '621.25M', '6-7': '282.89M', '7-8': '50.99M', '8-9': '3.17M', '9-10': '0.05M'}
 for multi
 
-http://3080.rom1504.fr/aesthetic/aesthetic_viz_multi.html multi viz
+https://laion-ai.github.io/laion-datasets/laion-aesthetic/laion2B_multi_aesthetic_distribution.html
 
 From these samples, it seems pretty clear that everything above the score 5 is a good part of the dataset from an aesthetic point of view.
 The samples below that threshold are useful for training clip models but their use is limited for training image generation models.
