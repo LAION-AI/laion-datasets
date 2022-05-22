@@ -11,6 +11,28 @@ Aesthetic results:
 
 <img src="https://github.com/LAION-AI/aesthetic-predictor/blob/main/cat_aesthetic.png?raw=true" width="512" />
 
+
+## Download
+
+Follow https://github.com/rom1504/img2dataset/blob/main/dataset_examples/laion-aesthetic.md
+
+## Demo
+
+In https://rom1504.github.io/clip-retrieval/ I provide a way to guide retrieval by doing (text_query+aesthetic_embedding)/norm.
+This can be seen as a preview of this aesthetic subsets
+
+
+## Data loader
+
+Same as https://github.com/rom1504/laion-prepro/blob/main/laion5B/usage_guide/dataloader_pytorch.py
+
+## Ideas of model to train
+
+* dalle2
+* glide
+* stylegan
+
+
 ## Description
 
 ### Training set
@@ -80,27 +102,5 @@ https://huggingface.co/datasets/laion/laion5B-aesthetic-tags-kv
 
 https://github.com/rom1504/laion-prepro/blob/main/laion5B/aesthetic/aesthetic_kv_usage.py
 
-
-
-## Download
-
-It can be downloaded at 
-using guide x of img2dataset
-
-## Demo
-
-In https://rom1504.github.io/clip-retrieval/ I provide a way to guide retrieval by doing (text_query+aesthetic_embedding)/norm.
-This can be seen as a preview of this aesthetic subsets
-
-
-## Data loader
-
-Same as https://github.com/rom1504/laion-prepro/blob/main/laion5B/usage_guide/dataloader_pytorch.py
-
-## Ideas of model to train
-
-* dalle2
-* glide
-* stylegan
 
 
