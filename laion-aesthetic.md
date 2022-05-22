@@ -61,12 +61,16 @@ They can be used to improve retrieval and clip guiding methods. https://rom1504.
 These subsets of laion5B were selected with various criteria:
 1. First keep only pwatermark < 0.8 and punsafe < 0.5 using the existing tags
 2. create a laion-art by selecting only aesthetic score > 8. That's a 10M subset
-3. create a laion-aesthetic by selecting only aesthetic score > 7. That's a 140M subset
+3. create a laion-aesthetic by selecting only aesthetic score > 7. That's a 120M subset
 
 Join scripts in [laion-prepro](https://github.com/rom1504/laion-prepro/tree/main/laion5B/aesthetic)
 
 laion-aesthetic is available there: 
 https://huggingface.co/datasets/laion/laion2B-multi-aesthetic https://huggingface.co/datasets/laion/laion2B-en-aesthetic https://huggingface.co/datasets/laion/laion1B-nolang-aesthetic
+
+* en 52M
+* multi 51M
+* nolang 17M
 
 ## Aesthetic ondisk kv
 
