@@ -16,7 +16,7 @@ Aesthetic results:
 ## Recommended usage
 
 Depending on how much data you want to use you can:
-1. use laion-art which contains the 10M most aesthetic samples (score > 8)
+1. use laion-art which contains the 8M most aesthetic samples (score > 8)
 2. use laion-aesthetic which contains 120M aesthetic samples (score > 7)
 3. use the on disk kv to get the full set of tags for the whole 5B samples and do your own custom filtering (or conditioning!) using the whole dataset
 
