@@ -47,7 +47,7 @@ Sample above 8 are very artistic.
 
 ### Aesthetic tags
 
-Aesthetic tags are available at 
+Aesthetic tags are available at  https://huggingface.co/datasets/laion/laion2B-multi-aesthetic-tags https://huggingface.co/datasets/laion/laion2B-en-aesthetic-tags https://huggingface.co/datasets/laion/laion1B-nolang-aesthetic-tags
 
 ### Aesthetic embeddings
 
