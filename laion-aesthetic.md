@@ -22,7 +22,11 @@ Depending on how much data you want to use you can:
 
 ## Download
 
-Follow https://github.com/rom1504/img2dataset/blob/main/dataset_examples/laion-aesthetic.md
+Follow https://github.com/rom1504/img2dataset/blob/main/dataset_examples/laion-aesthetic.md for laion aesthetic
+
+https://github.com/rom1504/img2dataset/blob/main/dataset_examples/laion-art.md for laion art
+
+Check https://huggingface.co/datasets/laion/laion2B-multi-aesthetic-tags https://huggingface.co/datasets/laion/laion2B-en-aesthetic-tags https://huggingface.co/datasets/laion/laion1B-nolang-aesthetic-tags for the full set of tags
 
 ## Demo
 
