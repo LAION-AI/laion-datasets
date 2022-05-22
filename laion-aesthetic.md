@@ -102,6 +102,8 @@ https://huggingface.co/datasets/laion/laion2B-multi-aesthetic https://huggingfac
 * multi 51M
 * nolang 17M
 
+laion-art is available at https://huggingface.co/datasets/laion/laion-art
+
 ## Aesthetic ondisk kv
 
 This is a ondisk kv store that can be used to get aesthetic score from hash to score without using any ram.
