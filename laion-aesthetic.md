@@ -55,6 +55,8 @@ Same as https://github.com/rom1504/laion-prepro/blob/main/laion5B/usage_guide/da
 
 A linear model on top of clip embeddings was then trained and released at https://github.com/LAION-AI/aesthetic-predictor.
 
+https://github.com/JD-P/simulacrabot was used to collect the 4000 samples of the training set
+
 ### Stats over laion5B
 
 Statistics look like ths
