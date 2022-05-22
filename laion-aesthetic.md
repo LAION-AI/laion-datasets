@@ -51,9 +51,9 @@ They can be used to improve retrieval and clip guiding methods. https://rom1504.
 ### Aesthetic subset
 
 These subsets of laion5B were selected with various criteria:
-1. remove watermark and nsfw using the existing tags
+1. First remove watermark and nsfw using the existing tags
 2. create a laion-art by selecting only aesthetic score >= 8. That's a 10M subset
-3. create a laion-aesthetic by selecting only aesthetic score >= 5. That's a 1.2B subset
+3. create a laion-aesthetic by selecting only aesthetic score >= 7. That's a 140M subset
 
 
 ## Download
