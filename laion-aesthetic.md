@@ -1,4 +1,4 @@
-# LAION-Aesthetics Predictor V1
+# LAION-Aesthetics V1
 
 Laion aesthetic is a subset of laion5B that has been estimated by a model trained on top of clip embeddings to be aesthetic.
 The intended usage of this dataset is image generation.
